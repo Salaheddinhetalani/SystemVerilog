@@ -1,0 +1,77 @@
+# ******************************
+# * Pin & Location Assignments *
+# ******************************
+# =======
+# Clocks:
+# =======
+set_location_assignment PIN_AF14 -to clock
+# ========================
+# Push Buttons:
+# ========================
+set_location_assignment PIN_AA14 -to n_reset
+# ============
+# Expansion Header (GPIO 0):
+# ============
+set_location_assignment PIN_AC18 -to re_in[0]
+set_location_assignment PIN_Y17  -to re_in[1]
+set_location_assignment PIN_AD17 -to re_in[2]
+set_location_assignment PIN_Y18  -to re_in[3]
+set_location_assignment PIN_AK16 -to re_in[4]
+set_location_assignment PIN_AK18 -to re_in[5]
+set_location_assignment PIN_AK19 -to re_in[6]
+set_location_assignment PIN_AJ19 -to re_in[7]
+# ===========
+# Green LEDs:
+# ===========
+set_location_assignment PIN_V16 -to LEDG[0]
+set_location_assignment PIN_W16 -to LEDG[1]
+set_location_assignment PIN_V17 -to LEDG[2]
+set_location_assignment PIN_V18 -to LEDG[3]
+set_location_assignment PIN_W17 -to LEDG[4]
+set_location_assignment PIN_W19 -to LEDG[5]
+set_location_assignment PIN_Y19 -to LEDG[6]
+set_location_assignment PIN_W20 -to LEDG[7]
+set_location_assignment PIN_W21 -to LEDG[8]
+set_location_assignment PIN_Y21 -to LEDG[9]
+# ===========
+# SevenSegments:
+# ===========
+set_location_assignment PIN_AE26 -to stateSeg[0]
+set_location_assignment PIN_AE27 -to stateSeg[1]
+set_location_assignment PIN_AE28 -to stateSeg[2]
+set_location_assignment PIN_AG27 -to stateSeg[3]
+set_location_assignment PIN_AF28 -to stateSeg[4]
+set_location_assignment PIN_AG28 -to stateSeg[5]
+set_location_assignment PIN_AH28 -to stateSeg[6]
+
+set_location_assignment PIN_AJ29 -to stateSeg[7]
+set_location_assignment PIN_AH29 -to stateSeg[8]
+set_location_assignment PIN_AH30 -to stateSeg[9]
+set_location_assignment PIN_AG30 -to stateSeg[10]
+set_location_assignment PIN_AF29 -to stateSeg[11]
+set_location_assignment PIN_AF30 -to stateSeg[12]
+set_location_assignment PIN_AD27 -to stateSeg[13]
+
+set_location_assignment PIN_AB23 -to vaultSeg[0]
+set_location_assignment PIN_AE29 -to vaultSeg[1]
+set_location_assignment PIN_AD29 -to vaultSeg[2]
+set_location_assignment PIN_AC28 -to vaultSeg[3]
+set_location_assignment PIN_AD30 -to vaultSeg[4]
+set_location_assignment PIN_AC29 -to vaultSeg[5]
+set_location_assignment PIN_AC30 -to vaultSeg[6]
+
+set_location_assignment PIN_AD26 -to vaultSeg[7]
+set_location_assignment PIN_AC27 -to vaultSeg[8]
+set_location_assignment PIN_AD25 -to vaultSeg[9]
+set_location_assignment PIN_AC25 -to vaultSeg[10]
+set_location_assignment PIN_AB28 -to vaultSeg[11]
+set_location_assignment PIN_AB25 -to vaultSeg[12]
+set_location_assignment PIN_AB22 -to vaultSeg[13]
+
+set_location_assignment PIN_AA24 -to dirSeg[0]
+set_location_assignment PIN_Y23 -to dirSeg[1]
+set_location_assignment PIN_Y24 -to dirSeg[2]
+set_location_assignment PIN_W22 -to dirSeg[3]
+set_location_assignment PIN_W24 -to dirSeg[4]
+set_location_assignment PIN_V23 -to dirSeg[5]
+set_location_assignment PIN_W25 -to dirSeg[6]
