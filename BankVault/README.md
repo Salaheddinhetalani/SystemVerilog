@@ -4,9 +4,9 @@ A SystemVerilog description of a state machine of an electronic emulation of a m
 ![screenshot from 2018-06-06 05 09 59](https://user-images.githubusercontent.com/28307467/41013762-fddc1692-6947-11e8-827b-a5c66ddc925d.png)
 
 ## Overall Objectives
-• Simulate the hardware description of a moderately complex state machine using Modelsim.
-• Synthesise a SystemVerilog description to an FPGA using Altera Quartus.
-• Program an FPGA and test an FPGA design using an Altera DE1-SoC FPGA Development Board.
+- Simulate the hardware description of a moderately complex state machine using Modelsim.
+- Synthesise a SystemVerilog description to an FPGA using Altera Quartus.
+- Program an FPGA and test an FPGA design using an Altera DE1-SoC FPGA Development Board.
 
 ## Specifications
 The state machine is a controller for an electronic combination lock (Figure 1) and the FPGA is Altera Cyclone V on the Altera DE1-SoC Development Board (Figure 2).
