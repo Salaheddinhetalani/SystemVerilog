@@ -1,2 +1,2 @@
-# SystemVerilog
-Main repository for SystemVerilog files
+# Seven Segment
+Seven segment decoder described as ROM active Low outputs.
